@@ -1,0 +1,133 @@
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: #484848;
+    line-height: 1.7em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+svg {
+    height: 34px; 
+    width: 34px;
+    fill: #008489;
+}
+
+.eyecatch-column img {
+    width: 100%;
+}
+
+header, .row-eyecatch {
+    display: none;
+}
+
+/* -------------------------- */
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style-position: inside;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 42px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.site-main-contents > div {
+    margin-bottom: 72px;
+}
+
+.row > div {
+    margin-bottom: 22px;
+}
+
+.with-link-column a, .with-button-column button {
+    display: inline-block;
+}
+
+p, .total-eyecatch-row img, .with-link-column a, .with-button-column button, .list-2-columns:last-child li:last-child, .list-column li:last-child {
+    margin-bottom: 16px;
+}
+
+.suport-info-item li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.suport-info-item li:last-child {
+    padding-bottom: 0;
+}
+
+.qa-items-col ul {
+    list-style-type: none;
+}
+
+.qa-items-col li {
+    padding: 18px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.row .list-2-columns:first-child {
+    margin-bottom: 0;
+}
+
+.suport-eyecatch-square {
+    display: none;
+}
+
+.statistics-data-data {
+    font-size: 40px;
+    line-height: 1em;
+}
+
+.statistics-data-legend {
+    font-size: 14px;
+}
+
+.site-main-contents > div.breakline {
+    margin-bottom: 0;
+}
+
+.site-main-contents > div.breakline::after {
+    display: block;
+    content: ".";
+    font-size: 0;
+    line-height: 0;
+    width: 68px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #767676;
+}
+
+.details-item-card {
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    box-shadow: 1px 1px 3px #eee;
+}
+
+.details-item-card:hover {
+    text-decoration: none;
+}
+
+.details-eyecatch img {
+    object-fit: cover;
+}
+
+.details-legends {
+    color: #484848;
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.details-legends-title {
+    font-weight: bold;
+}
