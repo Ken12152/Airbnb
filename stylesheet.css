@@ -27,6 +27,10 @@ h3 {
     margin-bottom: 16px;
 }
 
+.row {
+    margin: 0;
+}
+
 .site-main-contents > div {
     margin-bottom: 72px;
 }

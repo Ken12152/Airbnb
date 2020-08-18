@@ -1,8 +1,4 @@
 @media screen and (max-width: 767px) {
-    .row {
-        margin: 0;
-    }
-
     .one-eyecatch-row .eyecatch-column img {
         margin-top: 50px;
     }
@@ -28,6 +24,13 @@
     }
 }
 
+
+
+@media screen and (min-width: 431px) {
+    .total-eyecatch-row img {
+        margin-top: 50px;
+    }
+}
 
 
 @media screen and (min-width: 768px) {
