@@ -30,11 +30,33 @@
     .total-eyecatch-row img {
         margin-top: 50px;
     }
+
+    .bottom-eyecatch-br {
+        display: block;
+    }
 }
 
 
 @media screen and (min-width: 768px) {
     .eyecatch-column img {
         margin-bottom: 16px;
+    }
+
+    .footer-navs-area nav ul {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }    
+}
+
+
+@media screen and (min-width: 992px) {
+    .footer-navs-area nav ul {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }    
+    
+    .footer-navs-area nav ul:last-child {
+        /* padding-bottom: 20px; */
+        border-bottom: 0;
     }
 }
