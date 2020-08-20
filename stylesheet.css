@@ -167,7 +167,7 @@ svg {
 
 
 /* --------------- Footer ---------------- */
-.footer-navs-divs {
+.footer-navs-div {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     background-color: #f7f7f7;
@@ -178,10 +178,15 @@ svg {
     margin: 0 auto;
 }
 
-.footer-navs-area .footer-nav {
+/* nav bars */
+.footer-navs-area {
     margin: 0;
     padding-top: 20px;
     font-size: 14px;
+}
+
+.footer-navs-area .footer-nav {
+    align-content: flex-start;
 }
 
 .footer-navs-area h4 {
@@ -190,21 +195,16 @@ svg {
     font-weight: bold;
 }
 
-.footer-navs-area li {
-    padding: 6px 0;
-}
-
 .footer-navs-area nav {
     padding: 0;
 }
 
-.footer-navs-area nav ul:last-child {
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ccc;
+.footer-navs-area ul {
+    padding: 0 0 20px;
 }
 
-.footer-navs-area .footer-nav:last-child ul {
-    border-bottom: 0;
+.footer-navs-area li {
+    padding: 6px 15px;
 }
 
 .footer-navs-area a {
@@ -214,3 +214,12 @@ svg {
 .footer-navs-area a:hover {
     color: #727272;
 }
+
+.footer-nav:nth-child(-n+3)::after {
+    content: '.';
+    font-size: 0;
+    width: 100%;
+    height: 1px;
+    margin: 0 15px;
+    border-bottom: 1px solid #ccc;
+} 

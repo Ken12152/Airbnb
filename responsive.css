@@ -41,22 +41,24 @@
     .eyecatch-column img {
         margin-bottom: 16px;
     }
+    
+    .footer-navs-area ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-    .footer-navs-area nav ul {
-        padding-bottom: 20px;
-        border-bottom: 1px solid #ccc;
-    }    
+    .footer-navs-area li {
+        flex-basis: 33.333%;
+    }
 }
 
 
 @media screen and (min-width: 992px) {
-    .footer-navs-area nav ul {
-        padding-bottom: 0;
-        border-bottom: 0;
-    }    
-    
-    .footer-navs-area nav ul:last-child {
-        /* padding-bottom: 20px; */
+    .footer-navs-area ul {
+        display: block;
+    }
+
+    .footer-nav:nth-child(-n+3)::after {
         border-bottom: 0;
     }
 }
