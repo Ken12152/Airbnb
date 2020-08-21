@@ -40,20 +40,19 @@ h3 {
     margin-bottom: 22px;
 }
 
-.site-main-contents > div.breakline {
-    margin-bottom: 0;
+.section-line::before {
+    display: block;
+    content: '.';
+    font-size: 0;
+    text-indent: -9999px;
+    width: 68px;
+    height: 2px;
+    line-height: 0;
+    margin: 0 15px 20px 17px;
+    border-bottom: 1px solid #767676;
+    border-top: 1px solid #767676;
 }
 
-.site-main-contents > div.breakline::after {
-    display: block;
-    content: ".";
-    font-size: 0;
-    line-height: 0;
-    width: 68px;
-    margin-left: 17px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #767676;
-}
 
 p, .total-eyecatch-row img, .with-link-column a, .with-button-column button, .list-column li:last-child, .list-2-columns:last-child li:last-child {
     margin-bottom: 16px;
